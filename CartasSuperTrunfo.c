@@ -24,50 +24,50 @@ int main(){
   printf("cadastro da carta numero 1:\n");
 
   printf("Digite o Estado (A-H):\n");
-  scanf ("%c", estado1);
+  scanf ("%c", &estado1);
 
   printf ("digite o codigo da carta:\n");
   scanf ("%s", codigo1);
 
   printf ("digite o nome da cidade:\n");
-  scanf (" %[^\n]", cidade1);
+  scanf (" %[^\n]", &cidade1);
 
   printf ("digite a quantidade da população\n");
-  scanf ("%d", população1);
+  scanf ("%d", &população1);
 
   printf ("digite a área (em km²)\n");
-  scanf ("%f", area1);
+  scanf ("%f", &area1);
 
   printf ("digite o pib\n");
-  scanf ("%f", pib1);
+  scanf ("%f", &pib1);
 
   printf ("digite o número de pontos turisticos\n");
-  scanf ("%d", pontosturisticos1);
+  scanf ("%d", &pontosturisticos1);
 
   //// leitura da carta 2 
 
   printf ("cadastro da carta numero2 :/n");
 
   printf("Digite o Estado (A-H):\n");
-  scanf ("%c", estado2);
+  scanf ("%c", &estado2);
 
   printf ("digite o codigo da carta:\n");
-  scanf ("%s", codigo2);
+  scanf ("%s", &codigo2);
 
   printf ("digite o nome da cidade:\n");
-  scanf (" %[^\n]", cidade2);
+  scanf (" %[^\n]", &cidade2);
 
   printf ("digite a quantidade da população\n");
-  scanf ("%d", população2);
+  scanf ("%d", &população2);
 
   printf ("digite a área (em km²)\n ");
-  scanf ("%f", area2);
+  scanf ("%f", &area2);
 
   printf ("digite o pib\n");
-  scanf ("%f", pib2);
+  scanf ("%f", &pib2);
 
   printf ("digite o número de pontos turisticos\n");
-  scanf ("%d", pontosturisticos2\n);
+  scanf ("%d", &pontosturisticos2\n);
 
 ///exibição das cartas cadastradas
 
