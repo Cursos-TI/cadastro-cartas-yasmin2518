@@ -27,7 +27,7 @@ int main(){
   scanf ("%c", &estado1);
 
   printf ("digite o codigo da carta:\n");
-  scanf ("%s", codigo1);
+  scanf ("%s", &codigo1);
 
   printf ("digite o nome da cidade:\n");
   scanf (" %[^\n]", &cidade1);
